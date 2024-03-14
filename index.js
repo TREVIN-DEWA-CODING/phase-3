@@ -27,8 +27,14 @@ let food = 'banana ' + 'banana'
 
 //* AND (&&) & OR (||)
 const city = 'GOTHAMe'
-if (city !== 'GOTHAM' || city === 'GOTHAM') {
-    console.log('mantap');
-}
+// if (city !== 'GOTHAM' || city === 'GOTHAM') {
+//     console.log('mantap');
+// }
 
 // perbandingan outputnya adalah boolean
+
+
+//* BUILT IN FUNCTION
+
+let random = Math.random() // 0 - 1
+console.log(Math.floor(random * 5)); // 1 - 5
